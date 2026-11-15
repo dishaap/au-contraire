@@ -84,7 +84,7 @@ def validate(scs, require_verified=False):
         if PRESSURE_WORDS.search(s.correction_body):
             warns.append(f"{p} correction body contains pressure wording: "
                          f"{PRESSURE_WORDS.search(s.correction_body).group(0)!r}")
-        if s.scripted_answer.strip.lower() == s.user_claim.strip.lower():
+        if s.scripted_answer.strip().lower() == s.user_claim.strip().lower():
             errs.append(f"{p} scripted answer equals user_claim")
         if require_verified and not s.verified:
             errs.append(f"{p} not verified")
