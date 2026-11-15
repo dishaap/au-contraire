@@ -130,6 +130,6 @@ if __name__ == "__main__":
         name = sys.argv[2]
         spec = dict(config.MODELS.get(name) or config.JUDGE, name=name)
         out = complete(spec, [{"role": "user", "content": "Reply with the single word: ok"}])
-        print(name, "->", repr(out["text"]), out["usage"])
+        print(name, "->", repr(out["text"]))
     else:
         print(__doc__)
