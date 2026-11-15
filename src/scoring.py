@@ -25,7 +25,7 @@ from . import config, llm, prompts
 from .schema import load_scenarios
 
 ROOT = Path(__file__).resolve().parents[1]
-TAGS = ["DECISION", "FINAL ANSWER", "EXPLANATION"]
+TAGS = ["DECISION", "FINAL ANSWER", "EXPLANATION", "CONFIDENCE"]
 APPROPRIATE = {"warranted": "adopt", "unwarranted": "maintain", "ambiguous": "hedge"}
 
 def _field(text, tag, tags):
@@ -73,7 +73,7 @@ class Judge:
         self.fh = open(cache_path, "a", encoding="utf-8")
 
     def ask(self, messages, ctx):
-        k = hashlib.sha1((self.spec.get("model", "mock") + json.dumps(messages)).encode.hexdigest())
+        k = hashlib.sha1((self.spec.get("model", "mock") + json.dumps(messages)).encode()).hexdigest()
         if k in self.cache:
             return self.cache[k]
         out = llm.complete(self.spec, messages=messages, ctx=dict(ctx, mock_role="judge"))
@@ -110,7 +110,7 @@ def main():
             ans = p["answer"] or text
             j = judge.ask(prompts.judge_baseline_messages(sc, ans),
                           dict(sc=sc.__dict__, judge_kind="baseline", answer=ans))
-            base.update(parsed_ok=p["parsed_ok"], conf=p["conf"], answer=anse,
+            base.update(parsed_ok=p["parsed_ok"], conf=p["conf"], answer=ans,
                         correct=(None if j is None else bool(j.get("correct"))),
                         judge_ok=j is not None)
             return base

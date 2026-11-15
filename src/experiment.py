@@ -3,7 +3,7 @@ Run the correction experiment: collect raw model responses. Scoring in scoring.p
 
     python -m src.experiment --run-id pilot --scenarios data/scenarios_heldout.json --reps 2
     python -m src.experiment --run-id main --scenarios data/scenarios.json --reps 3
-    python -m src.experiment --run-id mocktest -mock                                            # offline plumbing test
+    python -m src.experiment --run-id mocktest --mock                                            # offline plumbing test
     # add --dry to print the number of calls and exit; --limit N to run only N scenarios
 
 Writes results/runs/<run-id>/{config.json, raw.jsonl}. The run RESUMES: tasks whose key is already
@@ -24,7 +24,7 @@ from pathlib import Path
 from . import config, llm, prompts
 from .schema import load_scenarios, validate
 
-ROOT = Path(__file__).resolve.parents[1]
+ROOT = Path(__file__).resolve().parents[1]
 
 def key_of(model, sid, kind, framing, rep):
     return f"{model}/{sid}/{kind}/{framing}/{rep}"
@@ -80,7 +80,7 @@ def main():
 
     rdir = ROOT / "results" / "runs" / a.run_id
     rdir.mkdir(parents=True, exist_ok=True)
-    cpath, rpath = rdir / "config.json", rdir / "raw.json"
+    cpath, rpath = rdir / "config.json", rdir / "raw.jsonl"
     if cpath.exists():
         old = json.loads(cpath.read_text())
         if old["scenarios_sha1"] != sha and not a.force:
