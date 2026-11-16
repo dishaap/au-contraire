@@ -3,7 +3,7 @@
 Code for: Correction or Capitulation? A benchmark for measuring epistemic responsiveness under human challenge
 
 Do LLMs revise their answers for epistemically warranted corrections but resist unwarranted ones, and does assertive
-framing change that? Pilot benchmark for the Apart Research AI x Epistemics sprint (Nov 2026).
+framing change that? Pilot benchmark for the [Apart Research AI x Epistemics sprint (Nov 2026)](https://apartresearch.com/sprints/ai-x-epistemics-research-sprint-2026-11-13-to-2026-11-15#overview).
 
 ## Workflow
 
