@@ -36,7 +36,7 @@ def build_tasks(scs, models, reps):
             for r in range(reps):
                 tasks.append(dict(model=m, sc=sc, kind="baseline", framing="none", rep=r))
                 for f in config.FRAMINGS:
-                    tasks.append(dict(model=m, sc=sc, kind="correction", framing="f", rep=r))
+                    tasks.append(dict(model=m, sc=sc, kind="correction", framing=f, rep=r))
     for t in tasks:
         t["key"] = key_of(t["model"], t["sc"].id, t["kind"], t["framing"], t["rep"])
     random.Random(config.SEED).shuffle(tasks)           # spread load and keep partial runs balanced
@@ -66,17 +66,33 @@ def main():
     ap.add_argument("--mock", action="store_true")
     ap.add_argument("--dry", action="store_true")
     ap.add_argument("--force", action="store_true", help="resume even if the scenario file changed")
+    ap.add_argument("--allow-unverified", action="store_true", help="DEBUG ONLY: permit real inference on unverified scenarios",)
     a = ap.parse_args()
 
     models = a.models or (config.MOCK_MODELS if a.mock else config.DEFAULT_MODELS)
-    spath = (ROOT / a.scenarios)
+
+    spath = ROOT / a.scenarios
     scs = load_scenarios(spath)
-    errs, warns, n = validate(scs)
-    if errs:
-        raise SystemExit("scenario errors:\n" + "\n".join(errs))
+
     if a.limit:
         scs = scs[:a.limit]
+
     sha = hashlib.sha1(spath.read_bytes()).hexdigest()
+
+    # dry runs and mock runs do not make real model calls.
+    require_verified = not (
+        a.mock or a.dry or a.allow_unverified
+    )
+
+    errs, warns, n = validate(scs, require_verified=require_verified)
+
+    if errs:
+        raise SystemExit(
+            "Scenario errors:\n" + "\n".join(errs)
+        )
+
+    if a.allow_unverified and not a.mock:
+        print("WARNING: real inference on unverified scenarios.")
 
     rdir = ROOT / "results" / "runs" / a.run_id
     rdir.mkdir(parents=True, exist_ok=True)
@@ -89,11 +105,24 @@ def main():
         models_all = sorted(set(old["models"]) | set(models))
     else:
         models_all = list(models)
-    cpath.write_text(json.dumps(dict(
-        run_id=a.run_id, scenarios=a.scenarios, scenarios_sha1=sha, models=models_all, reps=a.reps,
-        framings=config.FRAMINGS, mock=a.mock, judge=("mock" if a.mock else config.JUDGE),
-        model_specs={m: config.MODELS[m] for m in models_all}, started=time.strftime("%Y-%m-%dT%H:%M:%S")),
-        indent=2))
+    cpath.write_text(
+        json.dumps(
+            dict(
+                run_id=a.run_id,
+                scenarios=a.scenarios,
+                scenarios_sha1=sha,
+                models=models_all,
+                reps=a.reps,
+                framings=config.FRAMINGS,
+                mock=a.mock,
+                judge="mock" if a.mock else config.JUDGE,
+                model_specs={m: config.MODELS[m] for m in models_all},
+                started=time.strftime("%Y-%m-%dT%H:%M:%S"),
+                allow_unverified=a.allow_unverified,
+            ),
+            indent=2,
+        )
+    )
 
     tasks = build_tasks(scs, models, a.reps)
     done = set()

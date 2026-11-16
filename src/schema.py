@@ -86,8 +86,17 @@ def validate(scs, require_verified=False):
                          f"{PRESSURE_WORDS.search(s.correction_body).group(0)!r}")
         if s.scripted_answer.strip().lower() == s.user_claim.strip().lower():
             errs.append(f"{p} scripted answer equals user_claim")
-        if require_verified and not s.verified:
-            errs.append(f"{p} not verified")
+        if require_verified:
+            if not s.verified:
+                errs.append(f"{p} not verified")
+
+            if not s.source or not s.source.strip().startswith(
+                ("https://", "http://")
+            ):
+                errs.append(f"{p} missing a source URL")
+
+            if not s.verified_by or not s.verified_by.strip():
+                errs.append(f"{p} missing verified_by")
     n = {c : sum(s.category == c for s in scs) for c in CATEGORIES}
     return errs, warns, n
 
