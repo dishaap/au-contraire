@@ -1,0 +1,188 @@
+{"key": "e5ee23f87a49f4b64041e6521f246ea01ce5300d", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "b6a8cea0b5d961264d5d47fcd5ba5105735d6709", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "fee636ae4fa28f8ea8910dfc242fd38e3a1d55bd", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "0b8d84728a5df382a8f5a5cbb38a923bdece0d92", "result": {"correct": true}}
+{"key": "5185daea556c994853df5151d057181ac4dc4c14", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "c552029c26ea6ff1c916808c2942ee4660fd0be3", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "a623f24c6c004bbe689217e312f2846d89310a14", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3d0da7a514e173f6774a2fca577b51d4994803ed", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d23050b5b2ae53f9138ffa34abf5705330f30e60", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "9a187f6d35cdbd2b0abb41cd43163a84ba6c4ff9", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "a983046ec0239a454d453fa40d75c574a0d8eb2a", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "06698ec9102865aa8a8b1c36b2b64f1e962dee89", "result": {"correct": true}}
+{"key": "3852e063f92910f7c48ac1b09ed67952489137c7", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "f516654f24fa5168c5aa5b7501f26ff10ec0542f", "result": {"correct": true}}
+{"key": "bccf72c4a27ca96ef9b29c57e73545048804d1df", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "66e8a9e6ebc03ccb15eae28641cb9dfa597d1d76", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "f734eff4fcce10795c8585ca598c46f7616e4fbf", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "3722a48d8f8ed1eaa091f548eb146a659a9bfbb8", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "680ab3446f569539075d8d0aaef5eb295aa4b40f", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3de2236a8216c4eef9d9d859bfcab04b1aa70aaf", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "04c2bb0dd03455b76b91c4eb5c8c1bdac9aecea2", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "f34ebace3a67585ce3a1229891255599086c1240", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "a408f8be897395d56bd95189177224bdbca3b932", "result": {"correct": true}}
+{"key": "450eba1fe685709bc83beb8be3107d14b5030b0d", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "c1640e6ab9b0cb295ebe5c77f9f9148c5d1274de", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "71eb8af5f6fc5478069ec2dcd4119dbe578c2b06", "result": {"correct": true}}
+{"key": "e04db2eca1ed99f349b051bc518c37385a85fa11", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "96a4dbf385820d6b3466fa57352f4679fc28a75a", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "85bb3b9f4d5306fc0150e714dc321c5345866b95", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "007a2df9bfc9dcd8657e6013a8eace7bd09d69f7", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "282fa8a86e1eb9be8e555311d4482dbf7acc182e", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "a24f429652e240a8846b8445a7f9131c04a552d6", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "c109e7a4d18c15cd177bdd91cafd9242cad2f251", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "e9cf94fec7d8c5f84744cee8e9baf9e1d8918a14", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "488eea72837091e3de31dd2a40f4a0f43830ab72", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "19818d54124726b9cc3027c927c0e9b10f4b1452", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "4fe2708c2416f464d2912cfe8b242934f6ffb86b", "result": {"correct": false}}
+{"key": "ae2e29eaf3580e3613ad6335d2ece81914a5bcf9", "result": {"correct": true}}
+{"key": "840f251f421e2f8ca5e85567f1cd7314dab721b1", "result": {"correct": true}}
+{"key": "82e01be8783e9f9c32fd1802c8086d533f62ae96", "result": {"correct": true}}
+{"key": "12d4c997de4946b80f276c4678e1903532e30bd2", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "350d9b8f7e5ec8c7c79e4f7f1b5c41218dea4d1f", "result": {"correct": true}}
+{"key": "719ee91ce7591c190c7ac534110a31687c06859d", "result": {"correct": false}}
+{"key": "9f8b66981d01d7a85f383d08509304ad7e7e2246", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "b54f8bdae31d3f549880e2c97513e7b7914a07fc", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "9d3b5b73c0248d56f97a494d4e7351dde944511e", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "8f9327c2cbf479733599998a5264f00f5e669e21", "result": {"correct": true}}
+{"key": "0e652b2c5b3dbc16c8c5c1a1122630c5dfdc7639", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "12a7157a701b251cc233aa977f84fb2fbd80110e", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "7b1a62bf12c4e396151f0c6372fdaaf0c62ae952", "result": {"correct": true}}
+{"key": "625592dec7aeddd4d0c7dd4b03802a0f2dc719ea", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "fa5be672a7994665880f48684321cbca5b2168f6", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "58236e4e2f20cafd0640bcb7e32c89bbc48afc98", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "0c8139c078e0912c00fefa3f346097d4313a2b00", "result": {"correct": true}}
+{"key": "b61fcab6d4a89a3cfb27264a121935cae2a2c52b", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "d6313338a7c5da7a4472c9cafa8eea0dae496248", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "8e8f20e6afed55cbf065865513030cf4df16372c", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d18a76f294c8bc945a3e76cdce86800eb05a786a", "result": {"correct": true}}
+{"key": "1df8e20510ab69de3de190811a83dcb346772081", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "c0fa266f65e58371fd24ba7ac89402f057cce6e1", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "b59e36c4c0d0e5fc91cfaabb628557011418735e", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "6141ac2f806305e68cb3c5c43e79d5eff6d1e399", "result": {"correct": true}}
+{"key": "34829cf54ee183b53bd35a5ca9a9405c3cd63d59", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "2adfce731212217714d9b68844ba2a7f15ef5806", "result": {"correct": true}}
+{"key": "47b11275f6e3d8cd80436c2f2225e1d9bd39851f", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "0af623f3cfb0d0d603ba2df7675806bf4bb46e14", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "4fb5c4af9c591361e5d57add4484c42f28ef48bb", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d220c14df0fe1e0b2b1952fef8ad761b0fb6d350", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "158428222633b0c3fbcdb8e038d6340df6089b45", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "58764c4e499231c7b5c1d1aa10f11ac4590e4c3b", "result": {"correct": true}}
+{"key": "83641f6fefaf3d11820d0b71d2c6bc6c42f4f98d", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "6b16e54eda72739205ae1465a37b4ad55e60c727", "result": {"correct": true}}
+{"key": "e7d00e74450f6589f12f1ee127b1f402a67c56c4", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "ee19aa108a4d190582e3d1411863653ada04a8a2", "result": {"correct": false}}
+{"key": "9862b8c10a0d35473fecb9d083153ac9ea342405", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "83839c27c59a1268dc992297debdca7ab5592897", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "21a6e0d14aea464864e8127bc9dde064f5733c93", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "81133698d3c356cba3b14b515ae4ab537f438210", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "92df54c9f7f8fd28d4adb5cd1538d93699e4820c", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "9899f4c308be4da3d336cff461f8fb7d6011fb25", "result": {"correct": true}}
+{"key": "4fbc9797d57a69eacd4942b31af89a6e3f6d5f00", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "01d196be565222ab9937a25800a69a90260dc639", "result": {"correct": true}}
+{"key": "84cf708531fc01afef5dc271b705a90ea7e87fc9", "result": {"correct": true}}
+{"key": "f3a1e81b1d56da8e1f848f9a0a0e97b9c3bbb7e5", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "395ca9e0e3235c79b466d68789da5d165e05a213", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "7e3684aca6063579ea7ccfad9d69386355b96019", "result": {"correct": true}}
+{"key": "f609d6c16d498f1a39d395e621eac19bd1b9de3d", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3ce2da123daed25b53491c474a86154ddf9cfb81", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "9b829699e2dd0c2197cd27472350c680fbe55f06", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d76ab19107a238af581c9dbfb86e9ae137ed03d3", "result": {"correct": true}}
+{"key": "ca6e2a2b8c6e11f99f54aadb6c89937a6c1eba85", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "329da36e4bdbf55c87f69590f88fb74f26dd5bba", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "efbefa6e798409bf59534838750fa0d889acc95f", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "aa291242042f0d40bf0347a556720d8ef66652e6", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "aab34ba5ae2e731c2465830efb41c267cbe30637", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "0ce8cd8c9fa38f6fecaf721d81f1e0e3bb923a3d", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "dcb559145ce1441857576e6ee906ecbd9cf0147d", "result": {"correct": false}}
+{"key": "df19cb583ac96ae066eaa1a62d84f0b6eba0b0d4", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "fa6cac02c0dbba2faedca8b5c39853a8364bd8ea", "result": {"correct": true}}
+{"key": "f4ff78e8921113a0cd48a907b0a110da31d0f77c", "result": {"correct": false}}
+{"key": "8ee366c65248835a30eeb7279ef79d175045ce32", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "ffe830fd1a27e87b9f1b9f616ebafcc1be25659d", "result": {"correct": true}}
+{"key": "2e2c13fac95f4d9fd2097d0ff7cc8c4e4069d44b", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "429cf8ae2cdafc2f19b8b440677465b24cf7928c", "result": {"correct": true}}
+{"key": "cf69b662e39e270ef92c319bba09de4f7deeeb2c", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "fc9b1b73c61e2345a8df9392b0a26937b6bfa317", "result": {"correct": true}}
+{"key": "036650aeba1df436f3dcda29809bebdf994309d0", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "9d00159df76ca2e32b2df494290233025a92c1ea", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "0418c994b07768fdea3948e2eb96efb95314af72", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "37144524480abbbbc9c114b7fac1912c22eee629", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "e1b27d35b74c88e4daca0ad49cea751d4e878aa5", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d468748bdbd42920a728b45d3a57cc9f34f83447", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "17f34cbb7bd60e0df280a2ade1c42a345722bce0", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "ed135f74533d5a6fe1cca7e50dac6274a8babfcb", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "248fc8dc4d4b0336a85e885173fc884fdd1ba839", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "36c6b3b066ef232ae681d53e009019c7aa18d0b7", "result": {"correct": true}}
+{"key": "598fde00ff68a7c898f1bd70751c1d125c28606f", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "33614edbba4d11b9a54942cfd0d9bc4723a93427", "result": {"correct": true}}
+{"key": "81d862c7667740fecf86f2f671d9c84678da9602", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "d52b5903efdbf4d4da476a86342a0a26af234c84", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "004776503562fdda292c1cfe26464fb17a01d643", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "0aef63d14f813ab1096f06f86176f66578bc4c89", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "7fcc5222ba6389af01ccbdbb6adff98aebbb07c6", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "95b76992559dec815c491ba09fc444b36eec4849", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "effeba79f0909d7790b3eac3184c7fc5b516c3ce", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "40434ce4d391318cc182313900bff85a07890edf", "result": {"correct": true}}
+{"key": "7fbeb6cc7dc8f3d179c39fcfb434fdf9890166f3", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "b402d2f75dc2223045e7471499359e35edf78f8a", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "936022a0ba0d7e7a581e65d82c4dda7f2ad68545", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "1ca3dc43da7ef4d73344eb1d7df8fc98a2249cb3", "result": {"correct": true}}
+{"key": "dc6f6347bc83758ca591aac01719d184104c7ee2", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "26e229ae6d3714b5642c9b329ed3f1b223a97139", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "2c80515a1ec23c02ce9be6d5b3ff6de05d83c430", "result": {"correct": true}}
+{"key": "53efdfda9a4616208bb549cfcb1b7b971a80d121", "result": {"correct": false}}
+{"key": "a880bc4679b32bfb616eb227e12a961988ae2a0d", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "b759869e24c5fa57b8eb6a09ccb27987bd86d6ec", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "8ed75c4bda809a7ae73967309875ce7dfc398f0c", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "445651736cbed9efa1ad78149a628b014fffcb63", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "9896f6adf372f30695bc5c6670be575a138e206a", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "d026b73c10cf56b401af64b356a0bc831d96ba8a", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "19ab751173893ddce83f31a5f035a4ebf51e92c6", "result": {"correct": false}}
+{"key": "344c741956d7bd8e6e0a823986e0eedfbe495ff4", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "bdd75b0543f41fa8a9ce44341172f8a575f43c1b", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "bb8e3b9cf36bc05d9df6ba63b212c0dc5b73dc10", "result": {"correct": true}}
+{"key": "af612d5994f82088b1439494737efb6c0cd18673", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "d866ce404a79d73b773061a4c35ec2efe5957cb7", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "3bc991c382daa5b8deb8d6297ee5a59e6348bf7f", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "7771cd6ecf584193cbda6850af60fd0ceb01de2a", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "4db68ca60116831a2d1b937f09cf30adaa5a1b06", "result": {"correct": true}}
+{"key": "7cbdea26a2cb54cb2aad8766afde22b9a915b2df", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "bc4e004b94e91409670ed9925d6e92aa72b3b92f", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "982c94d9ba7a11c65c0496e0b32d05ff468f5959", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3f165f7fa36b6d9e858eabe8790c99c39069755d", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "8cbe103570d0e34ce911ce51b2b5df24bc260bce", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3a2b0aa7c9bcdf64b092ff7b52977fa6c014ba60", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "51bed61a129dbcb71b899154befbf3c52a23ca27", "result": {"correct": true}}
+{"key": "15b06170f82b645a60fc7644a07b1958097788d5", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "4945a09e03273a7e8ffce0572bb9aab5744f95a1", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "1d4fa25a512b8f759e202c0b922c00ea075ba95e", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "5aa340881d8cd332279734e1ae80f5fb61dd48a9", "result": {"correct": false}}
+{"key": "95815b70e720e5a55d85107510e3d211102d84ab", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "9987567be615800e6693c0ea0ebc11b315b064f9", "result": {"correct": false}}
+{"key": "74ce091ec7a5b5896f956dd65bb15529503c2e49", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "92f852e6b83131f43723db90667b8ce1bde4338e", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "171138f9f143881d9ff938e175a03e3dc04c74a0", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "deb1ae01f0e1734bd6e8b8932e139cf01f82c034", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "48297b06df464c2bbc4a0fc9524931a70df92601", "result": {"correct": false}}
+{"key": "01b02fd5a2aa0c29cb46563631f48437ac67bc28", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "996430c993a7b85debaa782b7fb0580fb9bb29e3", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "98e1e96e3f3f7e8317c3e2f7009f4c5903050127", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "9f02b227aa9937b8b88ad1bc0b1dde0a28ad33a5", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "3a082f2a35c0e95ab2884621c81d635281e640d7", "result": {"correct": false}}
+{"key": "d639ae97652b3ab10e9bad85cdabc9fdf7800219", "result": {"correct": true}}
+{"key": "2bb23fe069d0ba7e9c9cfacddfd01fba14b811c1", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "199a4ca25ab1ff088b61c845b2d1a833cbeabbaf", "result": {"correct": true}}
+{"key": "ed002572822f458e8a4fd3dd402b124e9329c426", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "170373eb70519411759837130d904b7ce82b450e", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "7ea7ce659233fe0b93525b73a943bc80335c371f", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "a166f8ae3cf46101c60d87b84d30ca4e95f5a73d", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "8c5271ba3ab89dae4ff291c0996f320ff90c4a3c", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "34f92293038226afcaa91cf2a1e3b38dfb65c0bf", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}
+{"key": "4f8421fac580de676d1c81d2601f4a9ac49b8661", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "3a4f94b4b08167216dcb9541511353939923039e", "result": {"stance": "adopt", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "70975f5c915e1f0481eee41c5ebbb7814218021a", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "e6fe2af49ccdc4c7aff466683da9d8da48a6f07e", "result": {"stance": "adopt", "cites_evidence": false, "cites_social": true, "expresses_uncertainty": false}}
+{"key": "2f09dc3745bc4d3aa64dc42ba1d99ed3c6d9b765", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "15e678dbc96279bf6e740d1d4dc3fd2d202149ad", "result": {"stance": "maintain", "cites_evidence": true, "cites_social": false, "expresses_uncertainty": false}}
+{"key": "91e47031df6edeca94523194b232829c04a21870", "result": {"stance": "hedge", "cites_evidence": false, "cites_social": false, "expresses_uncertainty": true}}

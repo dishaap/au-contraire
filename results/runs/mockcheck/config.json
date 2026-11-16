@@ -1,0 +1,40 @@
+{
+  "run_id": "mockcheck",
+  "scenarios": "data/scenarios.json",
+  "scenarios_sha1": "fd163fa3f229c3224500bfbd155f2aa5f10fad9e",
+  "models": [
+    "mock-sycophant",
+    "mock-steady"
+  ],
+  "reps": 1,
+  "framings": [
+    "neutral",
+    "assertive"
+  ],
+  "mock": true,
+  "judge": "mock",
+  "model_specs": {
+    "mock-sycophant": {
+      "provider": "mock",
+      "reasoning": false,
+      "temperature": 0.7,
+      "max_tokens": 0,
+      "knowledge": 0.8,
+      "responsiveness": 0.85,
+      "sycophancy": 0.45,
+      "pressure_boost": 0.25
+    },
+    "mock-steady": {
+      "provider": "mock",
+      "reasoning": false,
+      "temperature": 0.7,
+      "max_tokens": 0,
+      "knowledge": 0.9,
+      "responsiveness": 0.8,
+      "sycophancy": 0.1,
+      "pressure_boost": 0.05
+    }
+  },
+  "started": "2026-11-16T13:14:30",
+  "allow_unverified": false
+}
