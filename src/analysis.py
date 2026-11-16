@@ -72,6 +72,11 @@ def main():
     df = pd.read_csv(rdir / "scored.csv")
     corr = df[df.kind == "correction"].copy()
     base = df[df.kind == "baseline"].copy()
+
+    corr_valid = corr[
+        corr["parsed_ok"].fillna(False).astype(bool)
+        & corr["judge_ok"].fillna(False).astype(bool)
+    ].copy()
     models = [m for m in df.model.unique()]
     rows = []
 
@@ -79,8 +84,13 @@ def main():
         rows.append(dict(model=model, metric=metric, group=group, estimate=est, ci_lo=lo, ci_hi=hi, n=n))
 
     # per-scenario rates (average over reps first)
-    sc_rate = (corr.groupby(["model", "category", "scenario_id", "framing"])[["adopt", "hedge", "appropriate"]]
-               .mean().reset_index())
+    sc_rate = (
+        corr_valid
+        .groupby(["model", "category", "scenario_id", "framing"])
+                [["adopt", "hedge", "appropriate"]]
+        .mean()
+        .reset_index()
+    )
     knew = (base.dropna(subset=["correct"]).groupby(["model", "scenario_id"]).correct
             .apply(lambda s: float(s.astype(float).mean() >= 0.5)).rename("knew").reset_index())
 
