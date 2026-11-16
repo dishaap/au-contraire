@@ -6,23 +6,61 @@ Do LLMs revise their answers for epistemically warranted corrections but resist 
 framing change that? Pilot benchmark for the Apart Research AI x Epistemics sprint (Nov 2026).
 
 ## Workflow
-```powershell
+
+### Setup
+
+```bash
 pip install -r requirements.txt
-copy .env.example .env            # then add COHERE_API_KEY, GROQ_API_KEY
-
-python -m src.schema data/scenarios.json                       # validate items
-python -m src.llm --ping command-a                             # check each model id once (also: command-a-reasoning, qwen3-think, judge)
-
-python -m src.experiment --run-id mocktest --mock              # offline plumbing test
-python -m src.experiment --run-id pilot --scenarios data/scenarios_heldout.json --reps 2
-python -m src.experiment --run-id main  --scenarios data/scenarios.json --reps 3 --dry   # count calls
-python -m src.experiment --run-id main  --scenarios data/scenarios.json --reps 3
-
-python -m src.scoring  --run-id main --hand-sample 60          # judge + blind sheet for hand labels
-python -m src.analysis --run-id main --agreement results/runs/main/hand_label_sheet.csv
 ```
-Runs resume: rerun the same command after a crash. Outputs: `results/runs/<run-id>/{config.json, raw.jsonl,
-judge_cache.jsonl, scored.csv, summary.csv}`; figures in `report/figures/`.
+
+Create `.env` from `.env.example` and add your Cohere and Adaption API keys.
+
+### Check provider/model access
+
+```bash
+python -m src.llm --ping command-a
+python -m src.llm --ping command-a-reasoning
+python -m src.llm --ping qwen3.8-27b
+python -m src.llm --ping judge
+```
+
+### Validate the final dataset
+
+```bash
+python -m src.schema data/scenarios.json --require-verified
+```
+
+### Test the complete pipeline offline
+
+```bash
+python -m src.experiment --run-id mockcheck --mock --reps 1
+python -m src.scoring --run-id mockcheck --hand-sample 12
+python -m src.analysis --run-id mockcheck
+```
+
+### Run the experiment
+
+```bash
+python -m src.experiment \
+    --run-id main \
+    --scenarios data/scenarios.json \
+    --reps 2 \
+    --workers 2
+```
+
+Use `--dry` to count calls without making inference requests.
+
+### Score and analyse
+
+```bash
+python -m src.scoring --run-id main --hand-sample 50
+
+python -m src.analysis \
+    --run-id main \
+    --agreement results/runs/main/hand_label_sheet.csv
+```
+
+Runs resume from `raw.jsonl`. Use a new run ID whenever you change the scenario dataset or experimental configuration.
 
 ## Design in one paragraph
 Each scenario = question + scripted wrong/right first answer + one correction (`correction_body`). The body is wrapped in a
