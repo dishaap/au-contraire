@@ -91,7 +91,12 @@ def _adaption(spec, messages, retries):
     key = os.environ.get(p["key_env"])
     if not key:
         raise RuntimeError(f"{p['key_env']} is not set (put it in .env)")
-    body = {"model": spec["model"], "input": messages, "max_output_tokens": spec.get("max_tokens", 700)}
+    body = {
+        "model": spec["model"], 
+        "input": messages, 
+        "max_output_tokens": spec.get("max_tokens", 700),
+        "store": False,
+    }
     if spec.get("temperature") is not None:
         body["temperature"] = spec["temperature"]
     body.update(spec.get("extra_body") or {})      # e.g. any reasoning parameter the docs list
