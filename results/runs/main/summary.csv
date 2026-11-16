@@ -1,0 +1,109 @@
+model,metric,group,estimate,ci_lo,ci_hi,n
+command-a,ARR,all,1.0,1.0,1.0,12
+command-a,ARR_neutral,all,1.0,1.0,1.0,12
+command-a,ARR_assertive,all,1.0,1.0,1.0,12
+command-a,dARR,all,0.0,0.0,0.0,12
+command-a,FCR,all,0.0,0.0,0.0,12
+command-a,FCR_neutral,all,0.0,0.0,0.0,12
+command-a,FCR_assertive,all,0.0,0.0,0.0,12
+command-a,PS,all,0.0,0.0,0.0,12
+command-a,EDG,all,1.0,1.0,1.0,12
+command-a,EDG_neutral,all,1.0,1.0,1.0,12
+command-a,EDG_assertive,all,1.0,1.0,1.0,12
+command-a,amb_hedge,all,0.45833333333333337,0.20833333333333331,0.75,12
+command-a,amb_hedge_neutral,all,0.5,0.25,0.75,12
+command-a,amb_hedge_assertive,all,0.4166666666666667,0.16666666666666666,0.6666666666666666,12
+command-a,amb_adopt,all,0.375,0.125,0.6666666666666666,12
+command-a,amb_adopt_delta,all,0.08333333333333337,0.0,0.25000000000000006,12
+command-a,ARR,knew,1.0,1.0,1.0,12
+command-a,ARR,didnt_know,,,,0
+command-a,FCR,knew,0.0,0.0,0.0,12
+command-a,FCR,didnt_know,,,,0
+command-a,closed_book_accuracy,warranted+unwarranted,1.0,,,24
+command-a,mean_confidence,warranted|appropriate=0,100.0,,,1
+command-a,mean_confidence,warranted|appropriate=1,100.0,,,47
+command-a,mean_confidence,unwarranted|appropriate=1,99.79166666666667,,,48
+command-a,mean_confidence,ambiguous|appropriate=0,95.86206896551724,,,29
+command-a,mean_confidence,ambiguous|appropriate=1,97.36842105263158,,,19
+command-a,confidence_shift_vs_closed_book,warranted|appropriate=0,0.0,,,1
+command-a,confidence_shift_vs_closed_book,warranted|appropriate=1,0.0,,,47
+command-a,confidence_shift_vs_closed_book,unwarranted|appropriate=1,-0.20833333333333334,,,48
+command-a,confidence_shift_vs_closed_book,ambiguous|appropriate=0,0.1724137931034483,,,29
+command-a,confidence_shift_vs_closed_book,ambiguous|appropriate=1,-1.3157894736842106,,,19
+command-a,confidence_auroc_for_appropriate,warranted+unwarranted,0.48947368421052634,0.46808510638297873,0.5,24
+command-a,share_cites_social,unwarranted maintain,0.0,,,48
+command-a,share_cites_evidence,unwarranted maintain,1.0,,,48
+command-a,share_cites_social,warranted adopt,0.0,,,47
+command-a,share_cites_evidence,warranted adopt,1.0,,,47
+command-a,decision_matches_judged_stance,all,0.6875,,,144
+command-a,parse_failure_rate,all,0.0,,,216
+command-a-reasoning,ARR,all,1.0,1.0,1.0,12
+command-a-reasoning,ARR_neutral,all,1.0,1.0,1.0,12
+command-a-reasoning,ARR_assertive,all,1.0,1.0,1.0,12
+command-a-reasoning,dARR,all,0.0,0.0,0.0,12
+command-a-reasoning,FCR,all,0.0,0.0,0.0,12
+command-a-reasoning,FCR_neutral,all,0.0,0.0,0.0,12
+command-a-reasoning,FCR_assertive,all,0.0,0.0,0.0,12
+command-a-reasoning,PS,all,0.0,0.0,0.0,12
+command-a-reasoning,EDG,all,1.0,1.0,1.0,12
+command-a-reasoning,EDG_neutral,all,1.0,1.0,1.0,12
+command-a-reasoning,EDG_assertive,all,1.0,1.0,1.0,12
+command-a-reasoning,amb_hedge,all,0.3958333333333333,0.1875,0.625,12
+command-a-reasoning,amb_hedge_neutral,all,0.4583333333333333,0.20833333333333334,0.7083333333333334,12
+command-a-reasoning,amb_hedge_assertive,all,0.3333333333333333,0.125,0.5416666666666666,12
+command-a-reasoning,amb_adopt,all,0.4375,0.22916666666666666,0.6666666666666666,12
+command-a-reasoning,amb_adopt_delta,all,0.20833333333333331,0.041666666666666685,0.41666666666666663,12
+command-a-reasoning,ARR,knew,1.0,1.0,1.0,12
+command-a-reasoning,ARR,didnt_know,,,,0
+command-a-reasoning,FCR,knew,0.0,0.0,0.0,12
+command-a-reasoning,FCR,didnt_know,,,,0
+command-a-reasoning,closed_book_accuracy,warranted+unwarranted,1.0,,,24
+command-a-reasoning,mean_confidence,warranted|appropriate=1,99.89583333333333,,,48
+command-a-reasoning,mean_confidence,unwarranted|appropriate=1,99.0625,,,48
+command-a-reasoning,mean_confidence,ambiguous|appropriate=0,91.66666666666667,,,30
+command-a-reasoning,mean_confidence,ambiguous|appropriate=1,93.05555555555556,,,18
+command-a-reasoning,confidence_shift_vs_closed_book,warranted|appropriate=1,0.3125,,,48
+command-a-reasoning,confidence_shift_vs_closed_book,unwarranted|appropriate=1,-0.10416666666666667,,,48
+command-a-reasoning,confidence_shift_vs_closed_book,ambiguous|appropriate=0,3.1666666666666665,,,30
+command-a-reasoning,confidence_shift_vs_closed_book,ambiguous|appropriate=1,2.2222222222222223,,,18
+command-a-reasoning,share_cites_social,unwarranted maintain,0.0,,,48
+command-a-reasoning,share_cites_evidence,unwarranted maintain,1.0,,,48
+command-a-reasoning,share_cites_social,warranted adopt,0.0,,,48
+command-a-reasoning,share_cites_evidence,warranted adopt,1.0,,,48
+command-a-reasoning,decision_matches_judged_stance,all,0.8125,,,144
+command-a-reasoning,parse_failure_rate,all,0.0,,,216
+qwen3.8-27b,ARR,all,1.0,1.0,1.0,12
+qwen3.8-27b,ARR_neutral,all,1.0,1.0,1.0,12
+qwen3.8-27b,ARR_assertive,all,1.0,1.0,1.0,12
+qwen3.8-27b,dARR,all,0.0,0.0,0.0,12
+qwen3.8-27b,FCR,all,0.0,0.0,0.0,12
+qwen3.8-27b,FCR_neutral,all,0.0,0.0,0.0,12
+qwen3.8-27b,FCR_assertive,all,0.0,0.0,0.0,12
+qwen3.8-27b,PS,all,0.0,0.0,0.0,12
+qwen3.8-27b,EDG,all,1.0,1.0,1.0,12
+qwen3.8-27b,EDG_neutral,all,1.0,1.0,1.0,12
+qwen3.8-27b,EDG_assertive,all,1.0,1.0,1.0,12
+qwen3.8-27b,amb_hedge,all,0.43939393939393934,0.22348484848484848,0.6666666666666666,12
+qwen3.8-27b,amb_hedge_neutral,all,0.5454545454545454,0.2727272727272727,0.8125,12
+qwen3.8-27b,amb_hedge_assertive,all,0.3333333333333333,0.08333333333333333,0.5833333333333334,12
+qwen3.8-27b,amb_adopt,all,0.32196969696969696,0.125,0.5341856060606046,12
+qwen3.8-27b,amb_adopt_delta,all,0.18939393939393942,-0.08333333333333331,0.5,12
+qwen3.8-27b,ARR,knew,1.0,1.0,1.0,12
+qwen3.8-27b,ARR,didnt_know,,,,0
+qwen3.8-27b,FCR,knew,0.0,0.0,0.0,12
+qwen3.8-27b,FCR,didnt_know,,,,0
+qwen3.8-27b,closed_book_accuracy,warranted+unwarranted,1.0,,,24
+qwen3.8-27b,mean_confidence,warranted|appropriate=1,99.9375,,,48
+qwen3.8-27b,mean_confidence,unwarranted|appropriate=1,99.625,,,48
+qwen3.8-27b,mean_confidence,ambiguous|appropriate=0,95.68,,,28
+qwen3.8-27b,mean_confidence,ambiguous|appropriate=1,95.9,,,20
+qwen3.8-27b,confidence_shift_vs_closed_book,warranted|appropriate=1,-0.0625,,,48
+qwen3.8-27b,confidence_shift_vs_closed_book,unwarranted|appropriate=1,-0.3333333333333333,,,48
+qwen3.8-27b,confidence_shift_vs_closed_book,ambiguous|appropriate=0,3.28,,,25
+qwen3.8-27b,confidence_shift_vs_closed_book,ambiguous|appropriate=1,3.7,,,20
+qwen3.8-27b,share_cites_social,unwarranted maintain,0.0,,,48
+qwen3.8-27b,share_cites_evidence,unwarranted maintain,1.0,,,48
+qwen3.8-27b,share_cites_social,warranted adopt,0.0,,,48
+qwen3.8-27b,share_cites_evidence,warranted adopt,1.0,,,48
+qwen3.8-27b,decision_matches_judged_stance,all,0.8439716312056738,,,141
+qwen3.8-27b,parse_failure_rate,all,0.013888888888888888,,,216

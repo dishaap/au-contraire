@@ -1,0 +1,47 @@
+{
+  "run_id": "main",
+  "scenarios": "data/scenarios.json",
+  "scenarios_sha1": "a55c468bcb85571a79e91370721a893557a3f8e1",
+  "models": [
+    "command-a",
+    "command-a-reasoning",
+    "qwen3.8-27b"
+  ],
+  "reps": 2,
+  "framings": [
+    "neutral",
+    "assertive"
+  ],
+  "mock": false,
+  "judge": {
+    "provider": "adaption",
+    "model": "gemma-4-31b-it",
+    "temperature": 0.0,
+    "max_tokens": 400
+  },
+  "model_specs": {
+    "command-a": {
+      "provider": "cohere",
+      "model": "command-a-03-2025",
+      "reasoning": false,
+      "temperature": 0.7,
+      "max_tokens": 700
+    },
+    "command-a-reasoning": {
+      "provider": "cohere",
+      "model": "command-a-reasoning-08-2025",
+      "reasoning": true,
+      "temperature": 0.7,
+      "max_tokens": 6000
+    },
+    "qwen3.8-27b": {
+      "provider": "adaption",
+      "model": "qwen3.8-27b",
+      "reasoning": null,
+      "temperature": 0.7,
+      "max_tokens": 6000
+    }
+  },
+  "started": "2026-11-16T14:34:39",
+  "allow_unverified": false
+}
